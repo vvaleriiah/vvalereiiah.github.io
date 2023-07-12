@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="foorer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Estética Ps<b>.</b></div>
+            <div class="toggle"></div>
+            <ul class="navItems">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
+                <li><a href="Ub.html">Ubicacion y Horario</a></li>
+                <li><a href="Product.html">Productos</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hola</span>
+                <h1>Somos <span class="multiText"></span></h1>
+                <p>Contamos con 10 años de experiencia en el campo laboral,nos dedicamos a la estética personal, tomando siempre en cuenta el bienestar del cliente,asi como garantizamos la calidad de los trabajos realizados.</p>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="c2.png">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+    var typingEffect= new Typed(".multiText",{
+        strings :["Estetica Ps","Belleza","Cuidado"],
+        loop:true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500
+    })
+    </script>
+<script>
+    const menuToggle = document.querySelector('.toggle');
+    const navItemsw= document.querySelector('.navItems');
+    menuToggle.onclick = function(){
+        menuToggle.classList.toggle('active')
+        navItemsw.classList.toggle('active')
+    }
+</script>
+<br>
+<h1><center>Bienvenid@</center></h1><br>
+<h3><center>Estamos encantados de que estes con nosotros el día de hoy.</center></h3>
+<h2><center>¡Esperamos tu visita!</center></h2><br><br>
+
+<br>
+<center>
+    <h2 id="or"><center>Mision</center></h2>
+
+<p><center>Brindar atencion y asesoria a nuestros clientes con la mejor calidad, contando con un personal capasitado en las distintas areas, orientadas a satisfacer todas sus necesidades y espectativas.</center></p>
+<br><br>
+<h2 id="ro"><center>Vision</center></h2>
+
+<p><center>Consolidar al negocio como lider en estética, interesado en ofrecer los mejores servicios para cuidar la belleza y salud integral de hombres y mijeres para que puedan verse y sentirse mejor</center></p>
+<br><br>
+<h2><center>¡Aqui tienes un vistaso a nuestro trabajo!</center></h2>
+<br>
+<video controls autoplay>
+    <source src="videstetica.mp4" type="video/mp4">
+</video></center>
+<br><br>
+
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="Ps.png" alt="Logo de Estetica Ps">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Comunicate con nosotros</p>
+            <p>Siguenos en nuestras redes sociales</p>
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="https://www.facebook.com/profile.php?id=100091788980822&mibextid=ZbWKwL" class="fa fa-facebook"></a>
+                <a href="https://instagram.com/esteti_ps?igshid=MzRlODBiNWFlZA==" class="fa fa-instagram"></a>
+                <a href="https://twitter.com/estetips1253?s=11" class="fa fa-twitter"></a>
+                <a href="https://wa.me/qr/WXVIZZ6LF3QZO1" class="fa fa-whatsapp"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2023 <a>Estetica Ps</a> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+</body>
+</html>
